@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Badge from '../components/Badge.astro';
+import linkedin from '../components/linkedin.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<section class="w-full lg:w-[740px] mx-auto py-44">
+			<img class="rounded-full w-12 h-12 mb-4" 
+    		src="https://media.licdn.com/dms/image/D4E03AQGefl-B7vHZhA/profile-displayphoto-shrink_400_400/0/1710358348227?e=1726704000&v=beta&t=PlTPijORT4yKycJeoJQOPj1pmHLGLQMeKcxjMiGMYtk" alt="luxoi foto"/>
+
+		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-4">
+			Hey, soy Midudev <a href="https://www.linkedin.com/in/luis-loyola-cuevas/" 
+			target="_blank"
+			rel="noopener"
+			class="flex justify-center items-center">
+			<div class="flex justify-center items-center"
+			>
+				<Badge>Disponible para trabajar</Badge></h1>
+			</div></a>
+		<h2 class="text-2xl text-wrap"> 
+			<span>+1 Año de experiencia.</span> 
+			<span class="text-blue-200/90">Desarrollador SAP y Web.</span>
+			<span class="text-red-200/90">de Chile</span>,
+			<span class="opacity-75">Especializado en crear aplicaciones Unicas.</span> 
+		</h2>
+		<ul>
+			<li>
+				<a href="https://www.linkedin.com/in/luis-loyola-cuevas/">
+				<linkedin class="w-6 h-6"/>Linkedin
+				</a>
+			</li>
+		</ul>
+	</section>
+	</main>
+</Layout>
+
+
